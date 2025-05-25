@@ -13,8 +13,11 @@ if ($keyword !== '') {
         return stripos($content, $keyword) !== false;
     });
 }
-usort($files, fn($a, $b) => filemtime($b) - filemtime($a));
 
+// usort($files, fn($a, $b) => filemtime($b) - filemtime($a));// 7.4 或更高版本以支持箭头函数
+usort($files, function($a, $b) { //
+    return filemtime($b) - filemtime($a);
+});
 $initialFiles = array_slice($files, 0, 10);
 
 $Parsedown = new Parsedown();
