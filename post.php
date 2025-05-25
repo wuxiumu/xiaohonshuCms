@@ -11,8 +11,8 @@ if (!preg_match('/\.md$/', $file) || !file_exists($path)) {
 }
 
 $allFiles = glob($config['post_dir'] . '/*.md');
-// usort($files, fn($a, $b) => filemtime($b) - filemtime($a));// 7.4 或更高版本以支持箭头函数
-usort($files, function($a, $b) { //
+// usort($allFiles, fn($a, $b) => filemtime($b) - filemtime($a));
+usort($allFiles, function($a, $b) { //
     return filemtime($b) - filemtime($a);
 });
 $currentIndex = array_search($path, $allFiles);
