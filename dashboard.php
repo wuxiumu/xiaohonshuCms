@@ -13,13 +13,14 @@ if ($keyword !== '') {
         return stripos(file_get_contents($file), $keyword) !== false;
     });
 }
-usort($files, fn($a, $b) => filemtime($b) - filemtime($a));
+usort($files, function($a, $b) { // Sort by modified time
+    return filemtime($b) - filemtime($a);
+});
 $page = max(1, intval($_GET['page'] ?? 1));
 $perPage = 10;
 $total = count($files);
 $totalPages = ceil($total / $perPage);
 $files = array_slice($files, ($page - 1) * $perPage, $perPage);
-
 usort($files, function($a, $b) {
     return filemtime($b) - filemtime($a); // 最新的在前
 });

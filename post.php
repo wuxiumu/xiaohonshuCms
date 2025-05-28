@@ -11,7 +11,6 @@ if (!preg_match('/\.md$/', $file) || !file_exists($path)) {
 }
 
 $allFiles = glob($config['post_dir'] . '/*.md');
-// usort($allFiles, fn($a, $b) => filemtime($b) - filemtime($a));
 usort($allFiles, function($a, $b) { //
     return filemtime($b) - filemtime($a);
 });
@@ -68,6 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_index']) && is
     <title><?= htmlspecialchars($title) ?></title>
     <meta name="referrer" content="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./assets/common.js?v4"></script>
     <style>
         body { font-family: sans-serif; padding: 20px; max-width: 800px; margin: auto; }
         h1 { font-size: 28px; }

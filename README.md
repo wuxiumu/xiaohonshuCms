@@ -81,5 +81,38 @@
 SEO 优化	标题、描述、OpenGraph 等设置
 ```
 
+## 项目截图
+
+### 首页
+<img src="https://archive.biliimg.com/bfs/archive/91a4c57fe4c7ea4066f26657f1b585f6124bb9f4.png" alt="登陆" referrerpolicy="no-referrer">
+
+### 文章详情页
+ <img src="https://archive.biliimg.com/bfs/archive/d1f329035e50421b17fbecdb544f4f7e288306d7.png" alt="登录页" referrerpolicy="no-referrer">
+
+
+### 登陆页
+ <img src="https://archive.biliimg.com/bfs/archive/49471995b214154bf55aa5061bcb46e6468396b1.png" alt="登录页" referrerpolicy="no-referrer">
+
+### 后台
+<img src="https://archive.biliimg.com/bfs/archive/0e2535147dc0402a7a56ee2719349295334bf08d.png" alt="后台" referrerpolicy="no-referrer">
+
+
+### 编辑文章页
+<img src="https://archive.biliimg.com/bfs/archive/a18d6d428ce59691e38237a4fa2f6601643a7fba.png" alt="编辑文章页" referrerpolicy="no-referrer">
+
+
+### 一键分享
+<img src="https://archive.biliimg.com/bfs/archive/bdfedd05030512fb0ce57325aab89b307c8da216.png" alt="一键分享" referrerpolicy="no-referrer">
+
+
+### 图片预览
+<img src="https://archive.biliimg.com/bfs/archive/2bc91e756bc9a22020d54fe3f40fad4d0c90601c.png" alt="图片预览" referrerpolicy="no-referrer">
+
+
+
+
+
+
+
 
  
