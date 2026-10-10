@@ -176,3 +176,13 @@ A：默认不含，自行配置。
 |---|---|
 | ![微信赞赏码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185236_31_227.png) | ![支付宝收款码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185309_32_227.jpg) |
 
+## 环境变量
+
+复制 `.env.example` → `.env`，设置 `CMS_ADMIN_PASS`（已去掉默认 123456）。
+
+## 冒烟自检
+
+```bash
+bash scripts/smoke.sh
+```
+
