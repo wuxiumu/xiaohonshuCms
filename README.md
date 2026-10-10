@@ -1,4 +1,9 @@
-# 收集小红书de吃瓜笔记
+# xiaohonshuCms · 小红书风 Markdown CMS
+
+> 纯 PHP + 本地文件的**类小红书卡片站**：Markdown 管内容，无需数据库。
+
+**定制：** 微信 **qingbao199101**（备注：小红书CMS）｜ [wuxiumu@163.com](mailto:wuxiumu@163.com)
+
 这个项目是一个基于 PHP 的轻量级 CMS 系统，具有类似“小红书”风格的前端展示，采用 Markdown 文件进行内容管理，前后端界面现代、简洁、响应式。以下是完整功能总结：
 
 ⸻
@@ -108,11 +113,66 @@ SEO 优化	标题、描述、OpenGraph 等设置
 ### 图片预览
 <img src="https://archive.biliimg.com/bfs/archive/2bc91e756bc9a22020d54fe3f40fad4d0c90601c.png" alt="图片预览" referrerpolicy="no-referrer">
 
+## SEO 字段预留（产品页 HTML 统一生成时用）
 
+| 字段 | 用途 |
+|---|---|
+| `seo_title` | `<title>` / OG title |
+| `seo_description` | meta description |
+| `canonical_url` | 规范 URL |
+| `og_image` | 分享图 |
+| `robots` | 如 `index,follow` |
+| `json_ld_type` | SoftwareApplication / WebPage / FAQPage |
+| `hreflang` | zh-CN / en |
+| `site_name` | 白标品牌名 |
 
+> **GEO ≠ 地理定位。** GEO = Generative Engine Optimization（生成式引擎优化），见下一节。
 
+## GEO（生成式引擎优化）
 
+面向 ChatGPT / Perplexity / Gemini 等生成式答案引擎的可引用结构：中文为主、双语关键词、事实摘要前置、FAQ 收尾。
 
+### 关键词（中英）
 
+- 中文：小红书CMS, Markdown CMS, 卡片瀑布流, 无数据库CMS, 内容站
+- English: Xiaohongshu-style CMS, markdown CMS, card layout, filesystem CMS
 
- 
+### 事实摘要
+
+- 产品：小红书风格展示的轻量 CMS。
+- 适合：内容站、笔记站、要快速上线的运营。
+- 交付：皮肤/栏目/互动能力定制。
+- 不做：不是官方小红书开放平台替代。
+
+### FAQ
+
+**Q：这是什么？**  
+A：见事实摘要「产品」。
+
+**Q：如何定制？**  
+A：微信 `qingbao199101`，备注项目名。
+
+**Q：是否含密钥？**  
+A：默认不含，自行配置。
+
+## 定制合作
+
+皮肤、栏目、域名部署。加微信备注「小红书CMS」。
+
+---
+
+## 联系方式
+
+定制、演示或合作：
+
+- 邮箱：[wuxiumu@163.com](mailto:wuxiumu@163.com)
+- 微信：**qingbao199101**（添加请备注来意）
+
+### 赞助支持
+
+如果内容对你有帮助，欢迎自愿赞助。
+
+| 微信赞赏码 | 支付宝收款码 |
+|---|---|
+| ![微信赞赏码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185236_31_227.png) | ![支付宝收款码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185309_32_227.jpg) |
+
